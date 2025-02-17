@@ -1,0 +1,11 @@
+/* bug.css */
+#myElement {
+  color: blue;
+}
+
+/* solution.css */
+#myElement {
+  color: blue !important; /* Ensure the ID style is prioritized */
+}
+
+/* Or restructure the CSS to ensure inline styles are not applied after the ID selector*/
