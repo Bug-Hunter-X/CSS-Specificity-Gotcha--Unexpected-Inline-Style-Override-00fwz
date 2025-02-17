@@ -1,0 +1,1 @@
+This example demonstrates a less common CSS bug related to specificity and the order of style application. An inline style, despite having lower specificity, overrides an ID selector because it's applied later. The solution highlights how to avoid this by ensuring the correct order and potentially using !important (though with caution).
